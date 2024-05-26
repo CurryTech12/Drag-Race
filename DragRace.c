@@ -63,7 +63,7 @@ bool reset;  // flag to reset the system, set by the reset button located at bre
 	
 	
 int main(void){
-	LIGHTS = 0xFF;
+	//LIGHTS = 0xFF;
 	System_Init();
 	//LIGHTS = 0xFF;
   while(1){
